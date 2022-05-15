@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Documentation | Xhibiter HTML</title>
+
+    <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700%7CRoboto:400,700" rel="stylesheet" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/prism.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body data-spy="scroll" data-offset="60" data-target=".navbar" class="relative">
+    <!-- Preloader -->
+    <div class="loader-mask">
+      <div class="loader">Loading...</div>
+    </div>
+
+    <div class="main-wrapper">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <ul class="local-scroll nav navbar-nav">
+          <li><a href="#getting-started">Getting Started</a></li>
+          <li><a href="#usage">Usage</a></li>
+          <li><a href="#tailwind-config">Tailwind Config</a></li>
+          <li><a href="#credits">Credits</a></li>
+          <li><a href="#support">Support</a></li>
+        </ul>
+      </nav>
+
+      <!-- Menu Icon -->
+      <button class="menu-icon" id="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Menu Icon Close -->
+      <button class="menu-icon-close" id="menu-icon-close">
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Content -->
+      <div class="content-wrapper oh">
+        <header>
+          <h1>Xhibiter HTML Documentation</h1>
+          <p>
+            Thank you for purchasing our template. If you have any questions regarding our product feel free to visit
+            <a href="https://deothemes.ticksy.com/" target="_blank">support forum</a>
+          </p>
+        </header>
+
+        <hr />
+
+        <!-- Getting Started -->
+        <h2 class="section-title" id="getting-started">Getting Started</h2>
+        <p>Inside the project folder you'll find following folders and files.</p>
+        <ul>
+          <li><strong>/css</strong> - folder with CSS files</li>
+          <li><strong>/fonts</strong> - folder with fonts</li>
+          <li><strong>/img</strong> - folder with images</li>
+          <li><strong>/js</strong> - folder with JavaScript files</li>
+          <li><strong>contact.php</strong> - file for contact form</li>
+        </ul>
+        <p class="note alert alert-info">
+          Note: Contact form will not work offline. You must upload your website on a server with support of PHP and PHP
+          mail() function.
+        </p>
+
+        <!-- Usage -->
+        <h2 class="section-title" id="usage">Usage</h2>
+        <p>Make sure that <a href="https://nodejs.org/en/">Node JS</a> is installed to run NPM scripts</p>
+        <p>Install the project dependencies</p>
+        <pre><code>npm install</code></pre>
+
+        <p>Once installed, run one of the following commands:</p>
+        <ol>
+          <li><code>npm start</code> - Starts development script</li>
+          <li><code>npm run build</code> - Starts production script</li>
+          <li><code>npm run build:tailwind</code> - Compiles Tailwind CSS</li>
+        </ol>
+
+        <!-- Tailwind Config -->
+        <h2 class="section-title" id="tailwind-config">Tailwind Config</h2>
+        <p>
+          To edit colors, font sizes or any other variables use <strong>tailwind.config.js</strong> file -
+          <a href="https://tailwindcss.com/docs/installation" target="_blank">Learn more</a>
+        </p>
+
+        <h3>Example of Tailwind config</h3>
+        <pre>
+        <code>
+          module.exports = {
+          content: ["./dist/**/*.{html,js}"],
+          darkMode: "class",
+          theme: {
+            ...
+            fontFamily: {
+              display: ['"CalSans-SemiBold"', "sans-serif"],
+              body: ['"DM Sans"', "sans-serif"]
+            },
+            colors: {
+              transparent: "transparent",
+              current: "currentColor",
+              white: "#ffffff",
+              accent: "#8358FF",
+              "accent-dark": "#7444FF",
+              "accent-light": "#9E7CFF",
+              "accent-lighter": "#B9A0FF",
+              "light-base": "#F5F8FA",
+              green: "#10b981",
+              orange: "#FEB240",
+              red: "#EF4444",
+              blue: "#428AF8",
+              jacarta: {
+                base: "#5A5D79",
+                50: "#F4F4F6",
+                100: "#E7E8EC",
+                200: "#C4C5CF",
+                300: "#A1A2B3",
+                400: "#7D7F96",
+                500: "#5A5D79",
+                600: "#363A5D",
+                700: "#131740",
+                800: "#101436",
+                900: "#0D102D"
+              }
+            },
+        </code>
+        </pre>
+
+        <!-- Credits -->
+        <h2 class="section-title" id="credits">Credits</h2>
+        <ul>
+          <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+          <li><a href="https://github.com/Remix-Design/remixicon/">Remix Icons</a></li>
+          <li><a href="http://getbootstrap.com/">Bootstrap 5</a></li>
+          <li><a href="https://swiperjs.com/">Swiper Slider</a></li>
+          <li><a href="https://trvswgnr.github.io/bs5-lightbox/">Lightbox for Bootstrap 5</a></li>
+          <li><a href="https://www.chartjs.org/">Chart JS</a></li>
+          <li><a href="https://www.npmjs.com/package/countdown-updated">Countdown JS</a></li>
+          <li><a href="https://atomiks.github.io/tippyjs/">Tippy JS</a></li>
+          <li><a href="https://www.npmjs.com/package/@metamask/detect-provider">Metamask Detect Provider</a></li>
+        </ul>
+
+        <h2 class="section-title" id="support">Support</h2>
+        <p>
+          If you have any question feel free to visit our
+          <a href="https://deothemes.ticksy.com/" target="_blank">Support Forum</a>
+        </p>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="copyright">
+            <span>
+              &copy;
+              <script type="text/javascript">
+                document.write(new Date().getFullYear())
+              </script>
+              Xhibiter | Made by <a href="https://deothemes.com">DeoThemes</a>
+            </span>
+          </div>
+        </footer>
+        <!-- end footer -->
+      </div>
+      <!-- end content wrapper -->
+    </div>
+    <!-- end main wrapper -->
+
+    <!-- jQuery Scripts -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
